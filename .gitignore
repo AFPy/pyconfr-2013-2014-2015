@@ -1,0 +1,9 @@
+syntax: glob
+*~
+*.*~
+*.db
+*.egg-info
+*.mo
+*.pyc
+*.swp
+build/
