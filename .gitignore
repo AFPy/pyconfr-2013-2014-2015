@@ -6,4 +6,11 @@ syntax: glob
 *.mo
 *.pyc
 *.swp
+.installed.cfg
+pip-log.txt
+bin/
 build/
+var/clone
+var/develop-eggs
+var/eggs
+var/parts
