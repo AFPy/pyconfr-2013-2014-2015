@@ -7,9 +7,11 @@ syntax: glob
 *.pyc
 *.swp
 .installed.cfg
+local_settings.py
 pip-log.txt
 bin/
 build/
+pyconfr/site_media/
 var/clone
 var/develop-eggs
 var/eggs
