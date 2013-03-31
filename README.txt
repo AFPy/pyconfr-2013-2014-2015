@@ -1,23 +1,31 @@
 How Start
 =========
 
-Virtualenv::
+May be you have a specific pyconfr user::
 
-    ~ $ virtualenv env
-    ~ $ source env/bin/activate
+    ~$ cd /home/pyconfr
+    ~/home/pyconfr$ sudo -u pyconfr bash
 
 Clone the app::
 
-    (env) ~ $ git clone https://github.com/AFPy/pyconfr.git
-    (env) ~ $ cd pyconfr
+    ~/home/pyconfr$ git clone https://github.com/AFPy/pyconfr.git
+    ~/home/pyconfr$ cd pyconfr
 
 Dev install::
 
-    (env) ~/pyconfr $ pip install -r requirements.txt
-    (env) ~/pyconfr $ python manage.py syncdb
-    (env) ~/pyconfr $ python manage.py loaddata fixtures/*
+    ~/home/pyconfr/pyconfr$ python bootstrap.py
+    ~/home/pyconfr/pyconfr$ ./bin/buildout
+
+Db init::
+
+    ~/home/pyconfr/pyconfr$ ./bin/django syncdb
+    ~/home/pyconfr/pyconfr$ ./bin/django loaddata fixtures/*
 
 Start it in dev mode::
 
-    (env) ~/pyconfr $ python manage.py runserver
+    ~/home/pyconfr/pyconfr$ ./bin/django runserver
+
+Start behind apache proxy::
+
+    ~/home/pyconfr/pyconfr$ ./bin/django run_gunicorn localhost:8002 -D
 
