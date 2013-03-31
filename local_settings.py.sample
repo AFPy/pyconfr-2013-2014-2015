@@ -1,0 +1,5 @@
+from pyconfr.settings import *
+
+INSTALLED_APPS += [
+    'gunicorn',
+]
