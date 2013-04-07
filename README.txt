@@ -1,6 +1,9 @@
 How Start
 =========
 
+Installation
+------------
+
 May be you have a specific pyconfr user::
 
     ~$ cd /home/pyconfr
@@ -28,4 +31,20 @@ Start it in dev mode::
 Start behind apache proxy::
 
     ~/home/pyconfr/pyconfr$ ./bin/django run_gunicorn localhost:8002 -D
+
+Traductions
+-----------
+
+Extraction des messages (en ignorant les applis de bases, et afin d'ajouter les
+trads utiles uniquement)::
+
+    ~/home/pyconfr/pyconfr$ ./bin/django makemessages -l fr --ignore=var/*
+
+Edition du po::
+
+    ~/home/pyconfr/pyconfr$ vim conf/locale/fr/LC_MESSAGES/django.po
+
+Compiler les nouveaux messages::
+
+    ~/home/pyconfr/pyconfr$ ./bin/django compilemessages
 
