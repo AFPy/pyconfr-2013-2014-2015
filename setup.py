@@ -31,7 +31,7 @@ setup(
         "pinax-theme-bootstrap-account",
         "pinax-utils",
         "pil",
-        "pytz",
+        "pytz==2012j",
         "symposion",
     ],
     classifiers=(
