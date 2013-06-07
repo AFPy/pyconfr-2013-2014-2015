@@ -23,6 +23,8 @@
     {% block extra_head %}{% endblock %}
 {% endblock %}
 
+{% get_current_language as LANGUAGE_CODE %}
+
 {% block topbar_base %}
     <div class="container">
         <header id="masthead">
@@ -30,25 +32,25 @@
                 <ul class="nav nav-pills">
                     {% if not request.user.is_authenticated %}
                         <li>
-                            <a href="{% url account_login %}">Log in</a>
+                            <a href="{% url account_login %}">{% trans 'Log in' %}</a>
                         </li>
                         <li>
-                            <a href="{% url account_signup %}">Sign up</a>
+                            <a href="{% url account_signup %}">{% trans 'Sign up' %}</a>
                         </li>
                     {% else %}
                         <li>
-                            <a href="{% url dashboard %}">Dashboard</a>
+                            <a href="{% url dashboard %}">{% trans 'Dashboard' %}</a>
                         </li>
                         <li>
-                            <a href="{% url account_settings %}">Settings</a>
+                            <a href="{% url account_settings %}">{% trans 'Settings' %}</a>
                         </li>
                         {% if request.user.is_staff %}
                             <li>
-                                <a href="{% url admin:index %}">Admin</a>
+                                <a href="{% url admin:index %}">{% trans 'Admin' %}</a>
                             </li>
                         {% endif %}
                         <li>
-                            <a id="logout_link" href="{% url account_logout %}" data-form-submit="#account_logout_form">Log out</a>
+                            <a id="logout_link" href="{% url account_logout %}" data-form-submit="#account_logout_form">{% trans 'Log out' %}</a>
                         </li>
                         <form id="account_logout_form" class="hide" action="{% url account_logout %}" method="post">{% csrf_token %}</form>
                     {% endif %}
@@ -56,8 +58,7 @@
             </div>
             
             <h1><a href="{% url home %}">{{ SITE_NAME }}</a></h1>
-            <h2><a href="{% url home %}">
-	        Strasbourg, <span class="conf-date">26-29 octobre</span></span></a></h2>
+            <h2><a href="{% url home %}">{% trans 'Strasbourg' %}, <span class="conf-date">{% trans 'October 26-29' %}</span></span></a></h2>
         </header>
         <div class="navbar">
             <div class="navbar-inner">
