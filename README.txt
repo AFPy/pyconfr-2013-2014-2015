@@ -38,7 +38,7 @@ Traductions
 Extraction des messages (en ignorant les applis de bases, et afin d'ajouter les
 trads utiles uniquement)::
 
-    ~/home/pyconfr/pyconfr$ ./bin/django makemessages -l fr --ignore=var/*
+    ~/home/pyconfr/pyconfr$ sh makemessages.sh
 
 Edition du po::
 
