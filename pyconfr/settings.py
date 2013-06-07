@@ -34,6 +34,11 @@ DATABASES = {
     }
 }
 
+# If you set this to False, Django will make some optimizations so as not
+# to load the internationalization machinery.
+USE_I18N = True
+USE_L10N = True
+
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
@@ -45,11 +50,16 @@ TIME_ZONE = "Europe/Paris"
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = "fr"
 
-SITE_ID = 1
+LANGUAGES = (
+  ('fr', 'French'),
+  ('en', 'English'),
+)
 
-# If you set this to False, Django will make some optimizations so as not
-# to load the internationalization machinery.
-USE_I18N = True
+LOCALE_PATHS = (
+    './conf/locale/',
+)
+
+SITE_ID = 1
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
@@ -93,8 +103,9 @@ TEMPLATE_LOADERS = [
 ]
 
 MIDDLEWARE_CLASSES = [
-    "django.middleware.common.CommonMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
+    "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
