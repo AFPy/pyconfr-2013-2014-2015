@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-07 23:04+0200\n"
+"POT-Creation-Date: 2013-06-08 01:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: pyconfr/templates/_default_sidebar.html:6
+#: pyconfr/templates/_default_sidebar.html:7
 msgid "Sponsors"
 msgstr ""
 
@@ -33,6 +33,39 @@ msgstr ""
 #: pyconfr/templates/homepage.html:6
 msgid "Welcome"
 msgstr "Bienvenue"
+
+#: pyconfr/templates/site_base.html:35
+msgid "Log in"
+msgstr "Connexion"
+
+#: pyconfr/templates/site_base.html:38
+msgid "Sign up"
+msgstr "Inscription"
+
+#: pyconfr/templates/site_base.html:42
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: pyconfr/templates/site_base.html:45
+msgid "Settings"
+msgstr "Paramètres"
+
+#: pyconfr/templates/site_base.html:49
+msgid "Admin"
+msgstr ""
+
+#: pyconfr/templates/site_base.html:53
+msgid "Log out"
+msgstr "Déconnexion"
+
+#: pyconfr/templates/site_base.html:61
+msgid "Strasbourg"
+msgstr ""
+
+#: pyconfr/templates/site_base.html:61
+#, fuzzy
+msgid "October 26-29"
+msgstr "26-29 Octobre"
 
 #: pyconfr/templates/about/what_next.html:6
 #: pyconfr/templates/about/what_next.html:9
@@ -74,11 +107,686 @@ msgid ""
 "\"%(login_url)s\">logging in</a>."
 msgstr ""
 "Commencez par <a href=\"%(signup_url)s\">vous inscrire</a> et <a href="
-"\"%(login_url)s\">vous connecter</a>."
+"\"%(login_url)s\">connectez vous</a>."
 
 #: pyconfr/templates/about/what_next.html:34
 #, fuzzy, python-format
 msgid "Start by <a href=\"%(login_url)s\">logging in</a>."
 msgstr ""
-"Commencez par <a href=\"%(signup_url)s\">vous inscrire</a> et <a href="
-"\"%(login_url)s\">vous connecter</a>."
+"Commencez par <a href=\"%(signup_url)s\">vous inscrire</a> puis <a href="
+"\"%(login_url)s\">connectez vous</a>."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:19
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:95
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:25
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:64
+msgid "Password"
+msgstr "Mot de passe"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:29
+msgid "Password (again)"
+msgstr "Confirmer le mot de pass"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:41
+msgid "Usernames can only contain letters, numbers and underscores."
+msgstr ""
+"Les noms d'utilisateurs ne peuvent contenir que des lettres, des nombres et "
+"des underscores."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:45
+msgid "This username is already taken. Please choose another."
+msgstr "Ce nom d'utilisateur existe déjà, weuillez en choisir un autre."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:52
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:197
+msgid "A user is registered with this email address."
+msgstr "Un utilisateur est déjà inscrit avec cet email."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:57
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:142
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:171
+msgid "You must type the same password each time."
+msgstr "Vous devez retaper le même mot de passe"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:68
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:81
+msgid "This account is inactive."
+msgstr "Ce compte est inactive."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:96
+msgid "The username and/or password you specified are not correct."
+msgstr "Le nom d'utilisateur ou le mot de passe saisi est incorrect."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:106
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:148
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:177
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/conference/user_list.html:59
+msgid "Email"
+msgstr ""
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:107
+msgid "The email address and/or password you specified are not correct."
+msgstr "L'email ou le mot de passe que vous avez saisi est incorrect."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:118
+msgid "Current Password"
+msgstr "Mot de passe"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:122
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:160
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:126
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:164
+msgid "New Password (again)"
+msgstr "Confirmer le nouveau mot de passe"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:136
+msgid "Please type your current password."
+msgstr "Saisissez votre mot de passe."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:153
+msgid "Email address can not be found."
+msgstr "Cet email n'a pas été trouvé."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:179
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/forms.py:185
+msgid "Language"
+msgstr "Langue"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/models.py:30
+msgid "user"
+msgstr "utilisateur"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/models.py:31
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:22
+msgid "timezone"
+msgstr "fuseau horaire"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/models.py:32
+msgid "language"
+msgstr "langue"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/models.py:243
+msgid "email address"
+msgstr "email"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/models.py:244
+msgid "email addresses"
+msgstr "emails"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/models.py:293
+msgid "email confirmation"
+msgstr "email de confirmation"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/models.py:294
+msgid "email confirmations"
+msgstr "emails de confirmations"
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/views.py:40
+#, python-format
+msgid "Confirmation email sent to %(email)s."
+msgstr "Un email de confirmation a été envoyé %(email)s."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/views.py:44
+#, python-format
+msgid "The code %(code)s is invalid."
+msgstr "Le code %(code)s est invalid."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/views.py:334
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr "Vous venez de confirmer l'email `%(email)s`."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/views.py:407
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/views.py:544
+msgid "Password successfully changed."
+msgstr "Mot de passe modifié avec succès."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/views.py:623
+msgid "Account settings updated."
+msgstr "Paramètres du compte ont été mis à jour."
+
+#: var/eggs/django_user_accounts-1.0b13-py2.7.egg/account/views.py:707
+#, python-format
+msgid ""
+"Your account is now inactive and your data will be expunged in the next "
+"%(expunge_hours)d hours."
+msgstr ""
+"Votre compte est bien désactivé et vos données seront effacées dans les "
+"prochaines %(expunge_hours)d heures."
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/cms/models.py:23
+msgid "Draft"
+msgstr "Brouillon"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/cms/models.py:24
+msgid "Public"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/cms/models.py:56
+msgid "Path can only contain letters, numbers and hyphens and end with /"
+msgstr ""
+"Un chemin peut uniquement contenir des lettres, des nombres et tirets et se "
+"terminer par /"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:15
+msgid "title"
+msgstr "titre"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:18
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:58
+msgid "start date"
+msgstr "date de début"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:19
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:59
+msgid "end date"
+msgstr "date de fin"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:41
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:52
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:18
+msgid "conference"
+msgstr "conférence"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:42
+msgid "conferences"
+msgstr "conférences"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:54
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:19
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:151
+msgid "name"
+msgstr "nom"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:65
+msgid "section"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/conference/models.py:66
+msgid "sections"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/proposals/models.py:71
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/conference/user_list.html:60
+msgid "Name"
+msgstr "Nom"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/proposals/models.py:86
+msgid "Brief Description"
+msgstr "Description courte"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/proposals/models.py:91
+msgid "Detailed Abstract"
+msgstr "Résumé détaillé"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/proposals/models.py:92
+msgid ""
+"Detailed outline. Will be made public if your proposal is accepted. Edit "
+"using <a href='http://daringfireball.net/projects/markdown/basics' "
+"target='_blank'>Markdown</a>."
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/proposals/models.py:96
+msgid ""
+"Anything else you'd like the program committee to know when making their "
+"selection: your past experience, etc. This is not made public. Edit using <a "
+"href='http://daringfireball.net/projects/markdown/basics' "
+"target='_blank'>Markdown</a>."
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/proposals/models.py:144
+msgid "Pending"
+msgstr "En attente"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/proposals/models.py:145
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_pending_proposal_row.html:16
+msgid "Accepted"
+msgstr "Accepté"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/proposals/models.py:146
+msgid "Declined"
+msgstr "Refusé"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:20
+msgid "order"
+msgstr "ordre"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:21
+msgid "cost"
+msgstr "coût"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:22
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:152
+msgid "description"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:22
+msgid "This is private."
+msgstr "Ceci est privé."
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:26
+msgid "sponsor level"
+msgstr "niveau de sponsoring"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:27
+msgid "sponsor levels"
+msgstr "niveaux de sponsoring"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:38
+msgid "applicant"
+msgstr "postulant"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:40
+msgid "Sponsor Name"
+msgstr "Nom de sponsor"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:41
+msgid "external URL"
+msgstr "lien externe"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:42
+msgid "annotation"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:43
+msgid "Contact Name"
+msgstr "Nom de contact"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:44
+msgid "Contact Email"
+msgstr "Email de contact"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:45
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:162
+msgid "level"
+msgstr "niveau"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:46
+msgid "added"
+msgstr "ajouté"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:47
+msgid "active"
+msgstr "actif"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:58
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:177
+msgid "sponsor"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:59
+msgid "sponsors"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:153
+msgid "type"
+msgstr "genre"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:161
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:178
+msgid "benefit"
+msgstr "bénéfice"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:165
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:182
+msgid "max words"
+msgstr "nb max. de mots"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:166
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:183
+msgid "other limits"
+msgstr "autres limites"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:187
+msgid "text"
+msgstr "texte"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/sponsorship/models.py:188
+msgid "file"
+msgstr "fichier"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/dashboard.html:16
+msgid "Speaking"
+msgstr "Conférencier"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/dashboard.html:92
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/sponsorship/detail.html:8
+msgid "Sponsorship"
+msgstr "Partenariat"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/dashboard.html:132
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/review_detail.html:75
+msgid "Reviews"
+msgstr "Relectures"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/dashboard.html:196
+msgid "Teams"
+msgstr "Équipes"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/boxes/box.html:9
+msgid "Editing content:"
+msgstr "Éditer le contenu:"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/cms/page_edit.html:11
+msgid "Edit page at:"
+msgstr "Éditer de la page à:"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/conference/user_list.html:61
+msgid "Speaker Profile?"
+msgstr "Profile du conférencier?"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/emails/teams_user_applied/message.html:3
+#, python-format
+msgid ""
+"\n"
+"    <p>\n"
+"        User \"%(username)s\" has applied to join <b>%(team_name)s</b> on "
+"%(site_name)s.\n"
+"    </p>\n"
+"\n"
+"    <p>\n"
+"        To accept this application and see any other pending applications, "
+"visit the following url:\n"
+"        <a href=\"http://%(site_url)s%(team_url)s\">http://%(site_url)s"
+"%(team_url)s</a>\n"
+"    </p>\n"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/emails/teams_user_applied/subject.txt:1
+#, python-format
+msgid "%(username)s has applied to to join \"%(team)s\""
+msgstr "%(username)s demande à rejoindre \"%(team)s\""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/emails/teams_user_invited/message.html:3
+#, python-format
+msgid ""
+"\n"
+"    <p>\n"
+"        You have been invited to join <b>%(team_name)s</b> on "
+"%(site_name)s.\n"
+"    </p>\n"
+"\n"
+"    <p>\n"
+"        To accept this invitation, visit the following url:\n"
+"        <a href=\"http://%(site_url)s%(team_url)s\">http://%(site_url)s"
+"%(team_url)s</a>\n"
+"    </p>\n"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/emails/teams_user_invited/subject.txt:1
+#, python-format
+msgid "You have been invited to join \"%(team)s\""
+msgstr "Vous avez été invité à rejoindre \"%(team)s\""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_pending_proposal_row.html:12
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_pending_proposal_row.html:18
+msgid "Submitted"
+msgstr "Envoyé"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_pending_proposal_row.html:21
+msgid "Invited"
+msgstr "Invité"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_pending_proposal_row.html:30
+msgid "Choose Response"
+msgstr "Choisir une réponse"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_pending_proposal_row.html:35
+msgid "Accept invitation"
+msgstr "Accepter l'invitation"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_pending_proposal_row.html:37
+msgid "Decline invitation"
+msgstr "Décliner l'invitation"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:4
+msgid "Submitted by"
+msgstr "Envoyé par"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:7
+msgid "Track"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:10
+msgid "Audience Level"
+msgstr "Niveau de l'audience"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:14
+msgid "Additional Speakers"
+msgstr "Conférenciers supplémentaires"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:21
+msgid "Invitation Sent"
+msgstr "Invitation envoyée"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:28
+msgid "Description"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:31
+msgid "Abstract"
+msgstr "Résumé"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:34
+msgid "Notes"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:37
+msgid "Speaker Bio"
+msgstr "Bio du conférencier"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/_proposal_fields.html:40
+msgid "Documents"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_cancel.html:7
+msgid "Cancel Proposal"
+msgstr "Annuler la proposition"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_cancel.html:16
+msgid "No, keep it for now"
+msgstr "Non, conserver pour le moment"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:14
+msgid "Edit this proposal"
+msgstr "Editer cette proposition"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:17
+msgid "Cancel this proposal"
+msgstr "Annuler cette proposition"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:21
+msgid "Remove me from this proposal"
+msgstr "Me retirer de cette proposition"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:33
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/review_detail.html:74
+msgid "Proposal Details"
+msgstr "Détails de la proposition"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:35
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:47
+msgid "Supporting Documents"
+msgstr "Documents"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:38
+msgid "Reviewer Feedback"
+msgstr "Commentaires du relecteur"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:57
+msgid "delete"
+msgstr "effacer"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:64
+msgid "No supporting documents attached to this proposal."
+msgstr "Pas de document attaché à cette proposition."
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:66
+msgid "Add Document"
+msgstr "Ajouter un document"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:73
+msgid "Conversation with Reviewers"
+msgstr "Conversation avec les relecteurs"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:83
+msgid "Leave a Message"
+msgstr "Laisser un message"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:85
+msgid "You can leave a message for the reviewers here."
+msgstr "Vous pouvez laisser un message pour les relécteurs ici."
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_detail.html:94
+msgid "Submit"
+msgstr "Envoyer"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_speaker_manage.html:7
+msgid "Proposal:"
+msgstr "Proposition:"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_speaker_manage.html:10
+msgid "Edit proposal"
+msgstr "Editer la proposition"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_speaker_manage.html:14
+msgid "Current Speakers"
+msgstr "Conférenciers"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_speaker_manage.html:20
+msgid "pending invitation"
+msgstr "invitation en attente"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_speaker_manage.html:24
+msgid "Add another speaker"
+msgstr "Ajouter un conférencier"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/proposals/proposal_submit.html:6
+msgid "Submit A Proposal"
+msgstr "Envoyer une proposition"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/_review_table.html:6
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/result_notification.html:45
+msgid "Speaker / Title"
+msgstr "Conférencier / Titre"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/_review_table.html:7
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/result_notification.html:46
+msgid "Category"
+msgstr "Catégorie"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/_review_table.html:9
+msgid "+1"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/_review_table.html:10
+msgid "+0"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/_review_table.html:11
+msgid "-0"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/_review_table.html:12
+msgid "-1"
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/_review_table.html:13
+msgid "Your Rating"
+msgstr "Votre note"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/base.html:64
+msgid "All Reviews"
+msgstr "Toutes les relectures"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/base.html:77
+msgid "Voting Status"
+msgstr "États des votes"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/result_notification.html:47
+msgid "Status"
+msgstr "États"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/result_notification.html:48
+msgid "Notified?"
+msgstr "Notifié?"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/review_detail.html:76
+msgid "Speaker Feedback"
+msgstr "Retour du conférencier"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/review_detail.html:84
+msgid "Current Results"
+msgstr "Résultat"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/review_detail.html:91
+msgid "Total Responses"
+msgstr "Nb total de réponses"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/review_detail.html:108
+msgid "Submit Review"
+msgstr "Envoyer la relecture"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/review_detail.html:148
+msgid "Conversation with the submitter"
+msgstr "Conversation avec le candidat"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/review_detail.html:162
+msgid "Send a message"
+msgstr "Envoyer un message"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/reviews/review_detail.html:164
+msgid ""
+"\n"
+"                            If you'd like to communicate with the submitter, "
+"use the following form and he or she will be\n"
+"                            notified and given the opportunity to respond.\n"
+"                        "
+msgstr ""
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/schedule/_slot_edit.html:5
+msgid "Edit Slot"
+msgstr "Éditer le slot"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/speakers/speaker_create.html:7
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/speakers/speaker_create.html:14
+msgid "Create Speaker Profile"
+msgstr "Créer un profile de conférencier"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/speakers/speaker_edit.html:7
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/speakers/speaker_edit.html:14
+msgid "Edit Speaker Profile"
+msgstr "Éditer un profile de conférencier"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/sponsorship/add.html:7
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/sponsorship/add.html:14
+msgid "Add a Sponsor"
+msgstr "Ajouter un sponsor"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/sponsorship/apply.html:7
+msgid "Apply to be a Sponsor"
+msgstr "Devenir sponsor"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/sponsorship/apply.html:17
+msgid "Apply to Be a Sponsor"
+msgstr "Devenir sponsor"
+
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/sponsorship/list.html:7
+#: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/sponsorship/list.html:14
+msgid "About Our Sponsors"
+msgstr "À propos de nos sponsors"
