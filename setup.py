@@ -23,7 +23,7 @@ setup(
         "django-sitetree",
         "django-taggit",
         "django-timezones",
-        "django-user-accounts",
+        "django-user-accounts==1.0b13",
         "easy-thumbnails",
         "markdown",
         "metron", # 0.2.dev3
