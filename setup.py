@@ -13,7 +13,7 @@ setup(
     packages=find_packages(exclude=[]),
     include_package_data=True,
     install_requires = [
-        "django",
+        "django==1.4.2",
         "django-debug-toolbar",
         "django-forms-bootstrap",
         "django-mailer",
