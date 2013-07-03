@@ -69,7 +69,7 @@ msgstr "26-29 Octobre"
 #: pyconfr/templates/about/what_next.html:6
 #: pyconfr/templates/about/what_next.html:9
 msgid "What Next?"
-msgstr ""
+msgstr "Quoi d'autre ?"
 
 #: pyconfr/templates/about/what_next.html:12
 msgid "Here are some things to do to get started with this site:"
@@ -756,7 +756,8 @@ msgid ""
 "use the following form and he or she will be\n"
 "                            notified and given the opportunity to respond.\n"
 "                        "
-msgstr ""
+msgstr "Si vous voulez envoyer un message avec le candidant, utilisez le "
+"formulaire suivant, et il ou elle sera notifié(e)."
 
 #: var/eggs/symposion-1.0b2.dev2-py2.7.egg/symposion/templates/schedule/_slot_edit.html:5
 msgid "Edit Slot"
