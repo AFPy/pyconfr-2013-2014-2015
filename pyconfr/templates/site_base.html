@@ -14,8 +14,9 @@
 {% endblock %}
 
 {% block extra_head_base %}
+    <meta property="og:image" content="http://{{ request.META.HTTP_HOST }}{{ STATIC_URL }}pyconfr/images/social.png" />
     <link href="{{ STATIC_URL }}img/favicon.ico" rel="shortcut icon" />
-     <link rel='stylesheet' id='oswald-css'
+    <link rel='stylesheet' id='oswald-css'
      href='http://fonts.googleapis.com/css?family=Oswald&#038;ver=3.3.2'
      type='text/css' media='all' />
     <script src="{% block jquery_src %}{% static "pinax/js/jquery.js" %}{% endblock %}"></script>
@@ -56,7 +57,7 @@
                     {% endif %}
                 </ul>
             </div>
-            
+
             <h1><a href="{% url home %}">{{ SITE_NAME }}</a></h1>
             <h2><a href="{% url home %}">{% trans 'Strasbourg' %}, <span class="conf-date">{% trans 'October 26-29' %}</span></span></a></h2>
         </header>
@@ -82,11 +83,11 @@
 {% block body_base %}
     <div class="container">
         {% include "_messages.html" %}
-        
+
         {# {% block breadcrumbs %} #}
             {# {% sitetree_breadcrumbs from "main" %} #}
         {# {% endblock %} #}
-        
+
         {% block body_outer %}
             <div class="row">
                 <div class="span9">
