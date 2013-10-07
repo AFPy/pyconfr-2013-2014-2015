@@ -58,8 +58,9 @@
                 </ul>
             </div>
 
-            <h1><a href="{% url home %}">{{ SITE_NAME }}</a></h1>
-            <h2><a href="{% url home %}">{% trans 'Strasbourg' %}, <span class="conf-date">{% trans 'October 26-29' %}</span></span></a></h2>
+            <h1 class="nodisplay"><a href="{% url home %}">{{ SITE_NAME }}</a></h1>
+            <h2 class="nodisplay"><a href="{% url home %}">{% trans 'Strasbourg' %}, <span class="conf-date">{% trans 'October 26-29' %}</span></span></a></h2>
+            <img src="{{ STATIC_URL }}pyconfr/images/banner.png" alt="PyConFR 2013 - Strasbourg du 26 au 29 octobre 2013"/>
         </header>
         <div class="navbar">
             <div class="navbar-inner">

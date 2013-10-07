@@ -651,7 +651,7 @@ h1,
 h2,
 h3 {
   line-height: 40px;
-  color: rgb(0, 110, 145);
+  color: #97BF0D;
   font-weight: normal;
   font-family: 'Oswald', Helvetica, Arial, sans-serif;
   padding-bottom: 8px;
@@ -3303,11 +3303,11 @@ input[type="submit"].btn.btn-mini {
 .nav > li > a {
   display: block;
   border-bottom: 1px solid;
-  color: rgb(0, 110, 145);
+  color: #97BF0D;
 }
 .nav > li > a:hover {
   text-decoration: none;
-  color: rgb(0, 110, 145);
+  color: #97BF0D;
 }
 .nav > li > a > img {
   max-width: none;
@@ -3840,7 +3840,7 @@ input[type="submit"].btn.btn-mini {
   line-height: 20px;
   height: auto;
   border-radius: 5px;
-  color: rgb(0, 110, 145);
+  color: #97BF0D;
 }
 
 .navbar .nav > li > a {
@@ -3862,7 +3862,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: rgb(0, 110, 145);
+  color: #97BF0D;
   text-decoration: none;
 }
 .navbar .btn-navbar {
@@ -5167,7 +5167,7 @@ header h2 a{
 }
 
 .conf-date {
-  color: rgb(0, 110, 145);
+  color: #97BF0D;
 }
 
 header p {
@@ -5199,7 +5199,7 @@ header .nav-pills li{
 }
 
 header .nav-pills li a{
-  color: rgb(0, 110, 145);
+  color: #97BF0D;
   padding: 0 0 0 0;
   padding-bottom: 0px;
   border-bottom: 2px solid;
@@ -5453,4 +5453,8 @@ table.calendar td span.title {
 table.calendar td span.speaker {
   font-weight: normal;
   display: block;
+}
+
+.nodisplay {
+    display: none;
 }
