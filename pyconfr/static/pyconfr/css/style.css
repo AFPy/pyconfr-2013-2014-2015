@@ -569,6 +569,7 @@ p {
   font-size: 17px;
   line-height: 27px;
   font-weight: normal;
+  text-align: justify;
 }
 
 .lead {
@@ -3644,7 +3645,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar li a {
   border: 0px;
-  font-size: 18px;
+  font-size: 17px;
   padding-left: 20px;
 }
 
