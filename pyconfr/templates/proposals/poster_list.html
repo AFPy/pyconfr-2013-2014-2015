@@ -1,0 +1,19 @@
+{% extends "site_base.html" %}
+{% load boxes_tags %}
+
+{% block head-title %}Posters{% endblock %}
+
+{% block body %}
+<h1>Posters</h1>
+
+{% box "poster_top" %}
+
+<div>
+    {% for poster in posters %}
+        <p><a href="{% url poster_detail pk=poster.id %}"/>{{ poster.title }} ({{ poster.speakers|join:", " }})</p>
+    {% endfor %}
+</div>
+
+{% box "poster_bottom" %}
+
+{% endblock %}

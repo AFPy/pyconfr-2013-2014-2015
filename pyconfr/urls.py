@@ -35,6 +35,7 @@ urlpatterns = patterns("",
         url(r"^reviews/", include("symposion.reviews.urls")),
         url(r"^schedule/", include("symposion.schedule.urls")),
         url(r"^markitup/", include("markitup.urls")),
+        url(r"^posters/", include("pyconfr.proposals.urls")),
         
         url(r"^", include("symposion.cms.urls")),
 
