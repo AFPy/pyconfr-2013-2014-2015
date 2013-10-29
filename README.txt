@@ -52,3 +52,10 @@ Compiler les nouveaux messages::
 
     /home/pyconfr/pyconfr$ ./bin/django compilemessages
 
+
+Ajout des flat pages (pages à propos et lieu)
+---------------------------------------------
+
+     /home/pyconfr/pyconfr$ wget http://dl.afpy.org/pyconfr2013-cms-pages.json
+     /home/pyconfr/pyconfr$ ./bin/django loaddata pyconfr2013-cms-pages.json
+
