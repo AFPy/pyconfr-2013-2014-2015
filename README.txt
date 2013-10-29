@@ -24,6 +24,13 @@ Db init::
     /home/pyconfr/pyconfr$ ./bin/django syncdb
     /home/pyconfr/pyconfr$ ./bin/django loaddata fixtures/*
 
+
+Add flat pages (pages à propos et lieu)::
+
+     /home/pyconfr/pyconfr$ wget http://dl.afpy.org/pyconfr2013-cms-pages.json
+     /home/pyconfr/pyconfr$ ./bin/django loaddata pyconfr2013-cms-pages.json
+
+
 Start it in dev mode::
 
     /home/pyconfr/pyconfr$ ./bin/django runserver
@@ -52,10 +59,4 @@ Compiler les nouveaux messages::
 
     /home/pyconfr/pyconfr$ ./bin/django compilemessages
 
-
-Ajout des flat pages (pages à propos et lieu)
----------------------------------------------
-
-     /home/pyconfr/pyconfr$ wget http://dl.afpy.org/pyconfr2013-cms-pages.json
-     /home/pyconfr/pyconfr$ ./bin/django loaddata pyconfr2013-cms-pages.json
 
