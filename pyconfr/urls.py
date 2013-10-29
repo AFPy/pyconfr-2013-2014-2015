@@ -12,10 +12,13 @@ import symposion.views
 
 WIKI_SLUG = r"(([\w-]{2,})(/[\w-]{2,})*)"
 
+import settings
+
 urlpatterns = patterns("",
 
-    url(r"^$", redirect_to, {"url": "/2013/"}),
-    url(r"^2013/", include(patterns("",
+    url(r"^$", redirect_to, {"url": "/%s/" % settings.CONFERENCE_YEAR}),
+    url(r"^%s/" % settings.CONFERENCE_YEAR,
+        include(patterns("",
 
         url(r"^$", direct_to_template, {
             "template": "homepage.html",
