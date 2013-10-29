@@ -8,7 +8,7 @@ setup(
     author="AFPy",
     author_email="orga@afpy.org",
     version="0.2",
-    description="Symposion project for pyconfr 2013.",
+    description="Symposion project for pyconfr 2014.",
     url="https://github.com/AFPy/pyconfr",
     packages=find_packages(exclude=[]),
     include_package_data=True,
