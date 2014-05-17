@@ -27,7 +27,7 @@ setup(
         "easy-thumbnails",
         "markdown",
         "metron", # 0.2.dev3
-        "pinax-theme-bootstrap",
+        "pinax-theme-bootstrap==4.0.2",
         "pinax-theme-bootstrap-account",
         "pinax-utils",
         "pil",
