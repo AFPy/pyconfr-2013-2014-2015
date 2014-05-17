@@ -30,7 +30,7 @@ setup(
         "pinax-theme-bootstrap==4.0.2",
         "pinax-theme-bootstrap-account",
         "pinax-utils",
-        "pil",
+        "pillow",
         "pytz==2012j",
         "symposion",
     ],
