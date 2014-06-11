@@ -13,7 +13,7 @@ setup(
     packages=find_packages(exclude=[]),
     include_package_data=True,
     install_requires = [
-        "django==1.4.2",
+        "django",
         "django-debug-toolbar",
         "django-forms-bootstrap",
         "django-mailer",
@@ -27,7 +27,7 @@ setup(
         "easy-thumbnails",
         "markdown",
         "metron", # 0.2.dev3
-        "pinax-theme-bootstrap==4.0.2",
+        "pinax-theme-bootstrap==4.0.1",
         "pinax-theme-bootstrap-account",
         "pinax-utils",
         "pillow",
