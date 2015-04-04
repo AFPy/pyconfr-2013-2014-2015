@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Django settings for account project
 
+import os
 import os.path
 import posixpath
 
@@ -56,7 +57,8 @@ LANGUAGES = (
 )
 
 LOCALE_PATHS = (
-    './conf/locale/',
+    #os.path.join(PROJECT_ROOT, 'conf/locale'),
+    '/home/pyconfr/pyconfr-2014/conf/locale',
 )
 
 SITE_ID = 1

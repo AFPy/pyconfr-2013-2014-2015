@@ -9,7 +9,7 @@
  */
 
 body{
-  background-color: rgb(245, 245, 245);
+  background-color: white;
   background-image: -webkit-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
   color: #555;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -652,7 +652,7 @@ h1,
 h2,
 h3 {
   line-height: 40px;
-  color: #97BF0D;
+  color: #3AC154;
   font-weight: normal;
   font-family: 'Oswald', Helvetica, Arial, sans-serif;
   padding-bottom: 8px;
@@ -3304,11 +3304,11 @@ input[type="submit"].btn.btn-mini {
 .nav > li > a {
   display: block;
   border-bottom: 1px solid;
-  color: #97BF0D;
+  color: #3AC154;
 }
 .nav > li > a:hover {
   text-decoration: none;
-  color: #97BF0D;
+  color: #3AC154;
 }
 .nav > li > a > img {
   max-width: none;
@@ -3841,7 +3841,7 @@ input[type="submit"].btn.btn-mini {
   line-height: 20px;
   height: auto;
   border-radius: 5px;
-  color: #97BF0D;
+  color: #3AC154;
 }
 
 .navbar .nav > li > a {
@@ -3863,7 +3863,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #97BF0D;
+  color: #3AC154;
   text-decoration: none;
 }
 .navbar .btn-navbar {
@@ -5168,7 +5168,7 @@ header h2 a{
 }
 
 .conf-date {
-  color: #97BF0D;
+  color: #3AC154;
 }
 
 header p {
@@ -5200,7 +5200,7 @@ header .nav-pills li{
 }
 
 header .nav-pills li a{
-  color: #97BF0D;
+  color: #3AC154;
   padding: 0 0 0 0;
   padding-bottom: 0px;
   border-bottom: 2px solid;
