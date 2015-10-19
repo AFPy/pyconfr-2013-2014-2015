@@ -1,0 +1,19 @@
+{% extends "site_base.html" %}
+{% load boxes_tags %}
+
+{% block head-title %}Sondage Détail{% endblock %}
+
+{% block body %}
+<h1>Ma réponse</h1>
+
+{% box "poll_top" %}
+
+<form action="/poll/{{ poll.pk }}" method="post">{% csrf_token %}
+{{ form.as_p }}
+<input type="submit" value="Submit" />
+</form>
+
+{% box "poll_bottom" %}
+
+{% endblock %}
+

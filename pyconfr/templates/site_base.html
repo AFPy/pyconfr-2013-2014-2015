@@ -59,8 +59,7 @@
             </div>
 
             <h1 class="nodisplay"><a href="{% url home %}">{{ SITE_NAME }}</a></h1>
-            <h2 class="nodisplay"><a href="{% url home %}">{% trans 'Lyon' %}, <span class="conf-date">{% trans 'October 25-28' %}</span></a></h2>
-            <a href="{% url home %}"><img src="{{ STATIC_URL }}pyconfr/images/banner.png" alt="PyConFR 2014"/></a>
+            <a href="{% url home %}"><img src="{{ STATIC_URL }}pyconfr/images/banner.png" alt="{{ site.name }}}"/></a>
         </header>
         <div class="navbar">
             <div class="navbar-inner">

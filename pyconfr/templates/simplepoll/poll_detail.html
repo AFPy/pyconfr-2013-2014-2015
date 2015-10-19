@@ -1,0 +1,25 @@
+{% extends "site_base.html" %}
+
+{% block head-title %}Sondage Détail{% endblock %}
+
+{% block body %}
+<h1>Ma réponse {{poll.user.first_name}}</h1>
+
+
+<div>
+    <p>Je serai présent samedi: {{poll.willbepresentsaturday}}</p>
+<p>Je serai présent dimanche: {{poll.willbetheresunday}}</p>
+    <p>Choix du Goodie: {{poll.goodies}}</p>
+    <p>Choix taille du tshirt: {{poll.tshirtsize}}</p>
+    <p>Présent au diner du samedi soir: {{poll.diner}} </p>
+    <p>J'arriverai par {{poll.iarriveby}} le {{poll.arrivaldate}} à {{poll.arrivalhour}}</p>
+    <p>Je partirai par {{poll.iwillgoby}} le {{poll.dateofdeparture}} à {{poll.hourofdeparture}}</p>    <p>Mon Tél pour me joindre : {{poll.phone}}</p> 
+</div>
+<div>
+<p><a class="btn" href="{% url poll_update poll.pk %}">Update the poll</a></p>
+
+</div>
+
+
+{% endblock %}
+

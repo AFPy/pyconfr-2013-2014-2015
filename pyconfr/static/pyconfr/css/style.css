@@ -5408,6 +5408,23 @@ div.box-content .markItUpEditor {
   -moz-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px;
 }
+
+table{
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+td:first-of-type{
+  text-align: left;
+}
+
+tr:hover{
+  background-color: #C0C0C0;
+}
+
 table.calendar {
   background-color: #fffff;
   table-layout: fixed;
@@ -5459,3 +5476,4 @@ table.calendar td span.speaker {
 .nodisplay {
     display: none;
 }
+

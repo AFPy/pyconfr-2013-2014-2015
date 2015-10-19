@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-11 22:02+0200\n"
+"POT-Creation-Date: 2015-04-04 21:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,9 +38,6 @@ msgstr "Bienvenue"
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/_account_bar.html:24
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/login.html:7
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/login.html:20
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/_account_bar.html:24
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/login.html:7
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/login.html:20
 msgid "Log in"
 msgstr "Connexion"
 
@@ -50,11 +47,6 @@ msgstr "Connexion"
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup.html:13
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup.html:19
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup_closed.html:6
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/_account_bar.html:26
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup.html:7
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup.html:13
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup.html:19
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup_closed.html:6
 msgid "Sign up"
 msgstr "Inscription"
 
@@ -65,14 +57,11 @@ msgstr "Tableau de bord"
 #: pyconfr/templates/site_base.html:46
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/_account_bar.html:13
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/base.html:13
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/_account_bar.html:13
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/base.html:13
 msgid "Settings"
 msgstr "Paramètres"
 
 #: pyconfr/templates/site_base.html:50
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/_account_bar.html:15
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/_account_bar.html:15
 msgid "Admin"
 msgstr ""
 
@@ -81,10 +70,6 @@ msgstr ""
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/logout.html:6
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/logout.html:12
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/logout.html:16
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/_account_bar.html:19
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/logout.html:6
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/logout.html:12
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/logout.html:16
 msgid "Log out"
 msgstr "Déconnexion"
 
@@ -297,86 +282,68 @@ msgstr ""
 "prochaines %(expunge_hours)d heures."
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/404.html:5
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/404.html:5
 msgid "Not Found"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/404.html:9
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/404.html:9
 msgid "Page not found"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/404.html:10
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/404.html:10
 msgid "We're sorry but that page could not be found."
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/500.html:5
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/500.html:5
 msgid "Server Error"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/500.html:9
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/500.html:9
 msgid "Something went wrong"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/500.html:10
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/500.html:10
 msgid ""
 "We're sorry but a server error has occurred. We've been notified and will "
 "look into it as soon as possible."
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/base.html:10
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/base.html:10
 msgid "Account"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/base.html:16
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_change.html:9
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_change.html:15
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/base.html:16
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_change.html:9
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_change.html:15
 #, fuzzy
 msgid "Change password"
 msgstr "Nouveau mot de passe"
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/base.html:19
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/base.html:19
 msgid "Delete account"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirm.html:6
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirm.html:12
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirm.html:6
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirm.html:12
 #, fuzzy
 msgid "Confirm Email"
 msgstr "Email de contact"
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirm.html:15
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirm.html:15
 #, fuzzy, python-format
 msgid "Confirm email address <b>%(email)s</b>?"
 msgstr "Un email de confirmation a été envoyé %(email)s."
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirm.html:16
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirm.html:16
 msgid "Confirm"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmation_sent.html:6
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmation_sent.html:9
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmation_sent.html:6
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmation_sent.html:9
 #, fuzzy
 msgid "Confirm your email address"
 msgstr "email"
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmation_sent.html:11
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmation_sent.html:11
 #, python-format
 msgid ""
 "We have sent you an email to <b>%(email)s</b> for verification. Follow the "
@@ -387,63 +354,50 @@ msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmed.html:6
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmed.html:9
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmed.html:6
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmed.html:9
 #, fuzzy
 msgid "Email confirmed"
 msgstr "email de confirmation"
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmed.html:10
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email_confirmed.html:10
 #, fuzzy, python-format
 msgid "You have confirmed <b>%(email)s</b>"
 msgstr "Vous venez de confirmer l'email `%(email)s`."
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/login.html:13
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/login.html:13
 msgid "Log in to an existing account"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/login.html:19
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/login.html:19
 msgid "Forgot your password?"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/logout.html:15
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/logout.html:15
 msgid "Are you sure you want to log out?"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_change.html:19
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token.html:17
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_change.html:19
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token.html:17
 msgid "Save"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:8
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:16
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:8
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:16
 #, fuzzy
 msgid "Password reset"
 msgstr "Mot de passe"
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:17
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:17
 msgid ""
 "Forgotten your password? Enter your email address below, and we'll send you "
 "an email allowing you to reset it."
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:23
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:23
 #, fuzzy
 msgid "Reset my password"
 msgstr "Nouveau mot de passe"
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:30
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset.html:30
 #, python-format
 msgid ""
 "If you have any trouble resetting your password, contact us at <a href="
@@ -452,13 +406,10 @@ msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:7
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:10
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:7
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:10
 msgid "Password reset sent"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:12
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:12
 #, python-format
 msgid ""
 "We have sent you an email. If you do not receive it within a few minutes, "
@@ -467,12 +418,10 @@ msgid ""
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:21
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:21
 msgid "Resend"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:26
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_sent.html:26
 #, python-format
 msgid ""
 "We have resent the password email. If you do not receive it within a few "
@@ -482,21 +431,16 @@ msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token.html:7
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token.html:13
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token.html:7
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token.html:13
 #, fuzzy
 msgid "Set your new password"
 msgstr "Saisissez votre mot de passe."
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token_fail.html:6
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token_fail.html:9
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token_fail.html:6
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token_fail.html:9
 msgid "Bad token"
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token_fail.html:11
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/password_reset_token_fail.html:11
 #, python-format
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
@@ -504,18 +448,15 @@ msgid ""
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup_closed.html:9
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup_closed.html:9
 #, fuzzy
 msgid "This site is in private beta"
 msgstr "Ceci est privé."
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup_closed.html:10
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/signup_closed.html:10
 msgid "If you have signup code you can enter it below."
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email/email_confirmation_message.txt:1
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email/email_confirmation_message.txt:1
 #, python-format
 msgid ""
 "A user on %(site_name)s has created an account using this email address.\n"
@@ -526,13 +467,11 @@ msgid ""
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email/email_confirmation_subject.txt:1
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email/email_confirmation_subject.txt:1
 #, fuzzy, python-format
 msgid "Confirm email address for %(site_name)s"
 msgstr "Un email de confirmation a été envoyé %(email)s."
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email/password_reset.txt:1
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email/password_reset.txt:1
 #, python-format
 msgid ""
 "You're receiving this email because you or someone else has requested a "
@@ -544,7 +483,6 @@ msgid ""
 msgstr ""
 
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email/password_reset_subject.txt:1
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/account/email/password_reset_subject.txt:1
 #, python-format
 msgid "[%(site_name)s] Password reset"
 msgstr ""
@@ -553,10 +491,6 @@ msgstr ""
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/builtin_pagination.html:13
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/django_pagination_pagination.html:9
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/django_pagination_pagination.html:12
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/builtin_pagination.html:10
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/builtin_pagination.html:13
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/django_pagination_pagination.html:9
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/django_pagination_pagination.html:12
 msgid "Previous"
 msgstr ""
 
@@ -564,10 +498,6 @@ msgstr ""
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/builtin_pagination.html:21
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/django_pagination_pagination.html:22
 #: var/eggs/pinax_theme_bootstrap-4.0.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/django_pagination_pagination.html:24
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/builtin_pagination.html:19
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/builtin_pagination.html:21
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/django_pagination_pagination.html:22
-#: var/eggs/pinax_theme_bootstrap-5.2.1-py2.7.egg/pinax_theme_bootstrap/templates/pagination/django_pagination_pagination.html:24
 msgid "Next"
 msgstr ""
 

@@ -2,7 +2,7 @@ from django import forms
 
 from markitup.widgets import MarkItUpWidget
 
-from pyconfr.proposals.models import TalkProposal, TutorialProposal, PosterProposal
+from pyconfr.proposals.models import TalkProposal, TutorialProposal, PosterProposal, SprintProposal
 
 
 class ProposalForm(forms.ModelForm):
@@ -20,6 +20,24 @@ class TalkProposalForm(ProposalForm):
 
     class Meta:
         model = TalkProposal
+        fields = [
+            "title",
+            "audience_level",
+            "description",
+            "abstract",
+            "additional_notes",
+            "recording_release",
+        ]
+        widgets = {
+            "abstract": MarkItUpWidget(),
+            "additional_notes": MarkItUpWidget(),
+        }
+
+
+class SprintProposalForm(ProposalForm):
+
+    class Meta:
+        model = SprintProposal
         fields = [
             "title",
             "audience_level",

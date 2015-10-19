@@ -42,3 +42,7 @@ class TutorialProposal(Proposal):
 class PosterProposal(Proposal):
     class Meta:
         verbose_name = "poster proposal"
+
+class SprintProposal(Proposal):
+    class Meta:
+        verbose_name = "sprint proposal"

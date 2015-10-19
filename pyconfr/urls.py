@@ -39,7 +39,7 @@ urlpatterns = patterns("",
         url(r"^schedule/", include("symposion.schedule.urls")),
         url(r"^markitup/", include("markitup.urls")),
         url(r"^posters/", include("pyconfr.proposals.urls")),
-        
+        url(r"^polls/", include("pyconfr.simplepoll.urls")),
         url(r"^", include("symposion.cms.urls")),
 
     ))),

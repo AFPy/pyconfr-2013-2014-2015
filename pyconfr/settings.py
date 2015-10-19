@@ -5,6 +5,8 @@ import os
 import os.path
 import posixpath
 
+from datetime import datetime
+
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -57,8 +59,7 @@ LANGUAGES = (
 )
 
 LOCALE_PATHS = (
-    #os.path.join(PROJECT_ROOT, 'conf/locale'),
-    '/home/pyconfr/pyconfr-2014/conf/locale',
+    os.path.join(PROJECT_ROOT, 'conf', 'locale'),
 )
 
 SITE_ID = 1
@@ -128,6 +129,7 @@ TEMPLATE_CONTEXT_PROCESSORS = [
     "pinax_utils.context_processors.settings",
     "account.context_processors.account",
     "symposion.reviews.context_processors.reviews",
+    "pyconfr.context_processors.current_site",
 ]
 
 INSTALLED_APPS = [
@@ -147,7 +149,7 @@ INSTALLED_APPS = [
     "django_forms_bootstrap",
     
     # external
-    "debug_toolbar",
+    #"debug_toolbar",
     "mailer",
     "timezones",
     "metron",
@@ -172,6 +174,7 @@ INSTALLED_APPS = [
     
     # project
     "pyconfr.proposals",
+    "pyconfr.simplepoll",
 ]
 
 FIXTURE_DIRS = [
@@ -210,7 +213,10 @@ DEBUG_TOOLBAR_CONFIG = {
     "INTERCEPT_REDIRECTS": False,
 }
 
-MARKITUP_FILTER = ("markdown.markdown", {"safe_mode": True})
+MARKITUP_FILTER = ("markdown.markdown", {
+    "safe_mode": True,
+    'extensions': ['markdown.extensions.tables'],
+})
 MARKITUP_SET = "markitup/sets/markdown"
 MARKITUP_SKIN = "markitup/skins/simple"
 
@@ -222,9 +228,10 @@ PROPOSAL_FORMS = {
     "tutorial": "pyconfr.proposals.forms.TutorialProposalForm",
     "talk": "pyconfr.proposals.forms.TalkProposalForm",
     "poster": "pyconfr.proposals.forms.PosterProposalForm",
+    "sprint": "pyconfr.proposals.forms.SprintProposalForm",
 }
 
-CONFERENCE_YEAR = 2014
+CONFERENCE_YEAR = datetime.now().year
 
 
 # local_settings.py can be used to override environment-specific settings

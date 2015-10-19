@@ -28,4 +28,4 @@
     --ignore=var/eggs/zc.buildout-*-py2.7.egg \
     --ignore=var/eggs/zc.recipe.egg-*-py2.7.egg \
     --ignore=var/eggs/Pillow-2.4.0-py2.7-linux-x86_64.egg \
-    --ignore=var/eggs/ipython-2.1.0-py2.7.egg
+    --ignore=var/eggs/ipython-3.1.0-py2.7.egg
